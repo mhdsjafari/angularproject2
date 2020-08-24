@@ -1,0 +1,32 @@
+
+@mixin dsign {
+    background-image: linear-gradient(#ff7a58 0%,#fb4b63 100%) !important;
+}
+.box{
+    background: radial-gradient( red,white);
+}
+.img1{
+    width: 90px;
+    border: 2px solid purple;
+}
+div .box1{
+    text-align:center !important;
+}
+.btn1{
+    @include dsign();
+}
+
+
+.box{background:radial-gradient(red, white)}
+
+.img1{
+    width:90px;border:2px solid purple
+}
+
+div .box1{
+    text-align:center !important
+}
+
+.btn1{
+    background-image:linear-gradient(#ff7a58 0%, #fb4b63 100%) !important
+}
